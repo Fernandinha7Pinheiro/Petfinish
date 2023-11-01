@@ -1,0 +1,135 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #252525;
+    height:15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  header div {
+    border: solid green;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin-left: 2rem;
+  }
+
+  header div img {
+    height: 7vh;
+    border: solid pink ;
+  }
+
+  h1 {
+    margin-left: 1rem;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  header nav {
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 1rem;
+  }
+
+.cachorrofeliz {
+ height: 120vh;
+width: 100%;
+background-image: url("./imagens/feliz.png");
+background-repeat: no-repeat;
+background-size:100% 120vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+h2{
+  width: 50%;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  position: relative;
+  bottom: 12rem;
+}
+img{
+    position: relative;
+    bottom: 10rem;
+  
+}
+
+.cachorropalhaço{
+  height: 120vh;
+  background-image: url("./imagens/palhaço.png");
+background-repeat: no-repeat;
+background-size:100% 120vh;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}
+h2{color:black;
+font-size: 4rem;
+
+}
+p{
+border: solid;color: blue;
+color: black;
+font-size: 3,5rem;
+width: 40%;
+margin: 2rem 0 2rem 0;
+}
+ 
+button{
+  width: 15vw;
+  height: 7vh;
+  color: black;
+  background-color: black;
+  font-size: 2rem;
+  border-radius: 40px;
+}
+
+
+.cachorromimado{  
+ background-image: url("./imagens/mimado.png");
+ height: 100%;
+ background-repeat: no-repeat;
+ display: flex;
+ background-size:100% 100vh;
+ display: flex;
+justify-content: flex-end;
+align-items: center;
+
+}
+
+div{
+  width: 50%;
+  border: solid;color: blue;
+}
+h2{font-size: 3rem;
+  color: white;
+
+}
+p{
+  font-size: 2rem;
+  color: white;
+
+}
+button{
+  background-color: white;
+  color: black;
+  width: 12vw;
+height: 7vh;
+border-radius: 2rem;
+
+}
